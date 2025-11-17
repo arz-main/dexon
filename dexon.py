@@ -4,8 +4,8 @@ import requests
 import argparse
 from bs4 import BeautifulSoup
 
-parser = argparse.ArgumentParser(description="Unealtă pentru a obține definiții la cuvinte direct în terminal")
-parser.add_argument("word", help="Cuvântul pe care vrei să-l cauți")
+parser = argparse.ArgumentParser(description="unealtă pentru a obține definiții la cuvinte direct în terminal")
+parser.add_argument("word", help="cuvântul pe care vrei să-l cauți")
 args  = parser.parse_args()
 
 def make_request(word=""):
